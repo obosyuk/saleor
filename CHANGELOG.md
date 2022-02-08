@@ -31,6 +31,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Add `COLLECTION_CREATED`, `COLLECTION_UPDATED`, `COLLECTION_DELETED` events and webhooks - #8974 by @rafalp
 - Fix crash when too long translation strings were passed to `translate` mutations - #8942 by rafalp
 - Make collections names non-unique - #8986 by @rafalp
+- Fix crash when Avalara plugin was used together with Webhooks plugin for shipping methods - #9121 by @rafalp
 
 # 3.0.0 [Unreleased]
 
